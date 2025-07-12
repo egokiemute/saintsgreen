@@ -648,12 +648,19 @@ h2,
   }
 }
 @media only screen and (max-width: 575px) {
+  h1 {
+    font-size: 18px;
+  }
   h2,
   .h2 {
     font-size: 28px;
   }
 }
 @media only screen and (max-width: 480px) {
+    h1,
+    .rs-banner-title {
+    font-size: 18px;
+  }
   h2,
   .h2 {
     font-size: 26px;
@@ -8199,7 +8206,7 @@ html.lenis body {
 }
 @media only screen and (max-width: 991px) {
   .rs-banner-ten .rs-banner-title {
-    font-size: 40px;
+    font-size: 28px;
   }
 }
 .rs-banner-ten .rs-banner-info-btn {
@@ -8242,7 +8249,7 @@ html.lenis body {
 }
 @media only screen and (max-width: 991px) {
   .rs-banner-ten .rs-banner-descrip p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 .rs-banner-ten .rs-banner-subtitle {
