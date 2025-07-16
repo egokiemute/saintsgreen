@@ -3,7 +3,7 @@
 ---------------------------------*/
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Saints Green Company - Construction and Agro-filled HTML Template
+    Template Name: Saint Green Company - Construction and Agro-filled HTML Template
     Author: egokiemute-theme
     Support: https://egokiemute.co/support
     Description: Construction and Agro-filled HTML Template
@@ -5605,10 +5605,12 @@ html.lenis body {
 .rs-header-one .rs-header-logo {
   position: relative;
   z-index: 1;
+  width: auto;
+  height: auto;
 }
 .rs-header-one .rs-header-logo-wrapper {
-  width: 295px;
-  height: 98px;
+  width: 320px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15145,6 +15147,7 @@ html.lenis body {
 }
 .rs-team-two .rs-team-thumb img {
   width: 100%;
+  border-radius: 8px;
 }
 .rs-team-two .rs-team-content {
   margin: -65px 45px;
@@ -25800,3 +25803,12 @@ textarea:focus {
   border-color: var(--rs-theme-orange);
 }
 /*# sourceMappingURL=../maps/main.css.map */
+
+#form-messages {
+  color: #ffffff;
+  margin: 20px auto;
+  padding: 12px;
+  background-color: #172542;
+  font-size: 14px;
+  border-radius: 8px;
+}
